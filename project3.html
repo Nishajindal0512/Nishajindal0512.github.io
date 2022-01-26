@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap%22">
+    
+    <link rel="stylesheet" href="project.css">
+    <script src="projectScript.js" defer></script>
+</head>
+
+<body>
+    <div class="picture">
+    <header id="body-header" style="background-color:black;">
+        <nav>
+            <ul class="horizontal-list text-center nav-menu ">
+                <li><a href="project1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="books.html">Books and Novels</a></li>
+                <li><a href="project3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div id="main-body">
+        <div id="subscription">
+            <h4 class="widget-title">To Place A Order</h4>
+            <!-- <div id="subscription-form"> -->
+                <!-- background-image: url(https://images5.alphacoders.com/874/874633.jpg)-->
+                <form>
+                    <table cellspacing="19" cellpadding="4">
+                        <tr>
+                            <td><label for="input name">Name</label></td>
+                            <td><input name="name" type="text" id="user123">
+                            <span id="username"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="input-email">Email</label></td>
+                            <td><input name="email" type="email" id="email">
+                            <span id=" email"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="input-subject">Name of Book</label></td>
+                            <td><input name="subject" type="text" id="book">
+                            <span id="bookname"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="input-tables">Quantity</label></td>
+                            <td> <input name="quantity" type="number" id="quantity">
+                            <span id="quantity1"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="input-tables">Phone no.</label></td>
+                            <td><input name="phone no." type="Number" id="number">
+                            <span id="phoneno."></span></td>
+                        </tr>
+
+                        <tr>
+                            <td> <label for="input-message">Message</label></td>
+                            <td> <textarea name="message" row="30"></textarea></td>
+                        </tr>
+                    </table>
+                    <div class="submit-button"> 
+                         <button class="sub-btn"style="font-size: 1.2rem;background-color: black;color: white;padding: 10px;justify-content:center;" onclick="validation()">SEND</button>
+                        <!-- <input type="button" class="sub-btn" onclick="validation()" > -->
+                     </div> 
+                </form>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+    <center><div id="contact">
+        <div style="font-size:3rem;">Contact Us</div>
+        <div class="social-email">
+            <p class="social-email">Email: abc@gmail.com</p>
+        </div>
+        <div class="social-insta">
+            <p>Instagram: abc@gmail.com</p>
+        </div>
+        <div class="social-phone">
+            <p>Phone: 9999999999</p>
+        </div>
+        <div class="social-discord">
+            <p>Discord- username#1234</p>
+        </div>
+        <div>
+            <a href="#lightbox" class="lightbox-color">Thankyou!!</a>
+        </div>
+        <div id="lightbox">
+            <a href="#">X</a>
+            <p>I hope you found this website helpful in some ways and thankyou for visiting on our website.
+            </p>
+        </div>
+    </center>
+</div>
+
+</body>
+
+</html>
